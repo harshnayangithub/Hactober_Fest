@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n; cin>>n;
+	int arr[n];
+	
+	for(int i=0 ; i<n ; i++)
+	{
+		cout<<"Enter element of array:"<<endl;
+		cin>>arr[n];
+	}
+	
+	int b;
+	cout<<"Enter element for searching:"<<endl;
+	cin>>b;
+	
+	for(int i=0 ; i<n ; i++)
+	{
+		if(arr[i]==b)
+		{
+			cout<<"Element Found"<<endl;
+			cout<<"Position of Element is:"<<i<<endl;
+			break;
+		}
+	}
+}
